@@ -10,3 +10,12 @@ h2 {
     background-color: black;
     color: aliceblue;
 }
+/*Selecor ID*/
+#biografia{
+    background-color: cornflowerblue;
+    color: rgb(0, 0, 0);
+}
+#frases{
+    background-color: cornflowerblue;
+    color: black;
+}
