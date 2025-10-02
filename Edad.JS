@@ -2,9 +2,9 @@ function calcular() {
     // Pedimos la edad
     let numero1 = prompt("Ingresa su edad:");
     // Convertimos los valores de texto a número
-    numero1 = Number(numero1);
+    let edad = Number(numero1);
     // Validamos que sean números
-    if (!isNaN(numero1) >= 18 ) {
+    if (edad > 17 ) {
     alert("Permitido");
     } else {
     alert("Denegado");
